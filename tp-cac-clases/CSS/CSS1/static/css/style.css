@@ -1,0 +1,55 @@
+/* Intro a CSS */
+
+/* “:root”, es un selector especial
+ que se utiliza principalmente 
+ para definir variables personalizadas de CSS */
+:root{
+    --bg-color:#181419;
+    --primary-color:#9f3647;
+    --secondary-color:#ffc098;
+    --third-color:#db4648;
+    --third-bis-color:#db4648f2;
+    --bg-input-color:#4f31572c;
+}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+/* Asignar color al fondo y tipo de letra al body. */
+body{
+    background-color: var(--bg-color);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* 1.6	Eliminar la decoración de los 
+hipervínculos, agregar color y tamaño de 
+fuente a la etiqueta <h2></h2> */
+a{
+    text-decoration: none;
+}
+
+h2{
+    color:#FFF;
+    font-size: 2vw;
+}
+
+#logo{
+    font-weight: bold;
+}
+
+.search-title{
+    color: white;
+    font-size: 3vw;
+}
+
+.movie-item-img {
+    width: 200px;
+    height: 300px;
+    -o-object-fit: cover; 
+    object-fit: cover;
+}
+
